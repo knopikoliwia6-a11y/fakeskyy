@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "fakesky",
+  "version": "${version}",
+  "name": "Fake Sky",
+  "description": "Kosmetyczna podmiana wyglądu trzymanego przedmiotu.",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.fakesky.FakeSkyClient"] },
+  "mixins": ["fakesky.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
